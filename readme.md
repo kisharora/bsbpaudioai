@@ -48,22 +48,14 @@ BSBP TTS is a desktop application built with PyQt6 and the Kokoro TTS library, d
 ```
 bsbpaudioai/
 │
-├── build/               # Build directory (ignored in .gitignore)
-├── dist/                # Distribution directory (ignored in .gitignore)
-├── venv/                # Virtual environment (ignored in .gitignore)
 ├── .gitignore           # Git ignore file
 ├── app.py               # Main application entry point
-├── app.spec             # PyInstaller spec file (ignored in .gitignore)
 ├── bsbp_tts_kokoro.py   # Main application code using Kokoro TTS
 ├── bsbp_tts_orpheus.py  # Alternative TTS implementation with Orpheus
-├── logo.icns            # App icon for macOS
-├── logo.jpg             # App icon
-├── out.wav              # Generated audio file (ignored in .gitignore)
 ├── README.md            # This file
 ├── requirements.txt     # List of dependencies
 ├── screenshots/         # Directory for application screenshots
 │   └── gui.png          # Screenshot of the application GUI
-├── tts.spec             # Another PyInstaller spec file (ignored in .gitignore)
 ```
 
 ## Screenshots

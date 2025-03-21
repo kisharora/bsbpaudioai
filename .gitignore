@@ -11,6 +11,9 @@ dist/
 # Ignore generated audio files
 out.wav
 
+logo.jpg
+logo.icns
+
 
 
 # Ignore Python cache files
